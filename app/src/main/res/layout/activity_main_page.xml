@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFECB3"
+    tools:context=".Main_Page">
+
+  <TextView
+      android:id="@+id/textView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="122dp"
+      android:layout_marginTop="120dp"
+      android:layout_marginEnd="122dp"
+      android:layout_marginBottom="589dp"
+      android:text="Choose Your Language"
+      android:textColor="#050505"
+      android:textSize="16sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <Button
+      android:id="@+id/button"
+      android:layout_width="217dp"
+      android:layout_height="92dp"
+      android:layout_marginStart="107dp"
+      android:layout_marginTop="84dp"
+      android:layout_marginEnd="87dp"
+      android:text="English"
+      android:textColor="#100F0F"
+      android:textSize="20sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+  <Button
+      android:id="@+id/button2"
+      android:layout_width="217dp"
+      android:layout_height="92dp"
+      android:layout_marginStart="107dp"
+      android:layout_marginTop="53dp"
+      android:layout_marginEnd="87dp"
+      android:text="Gujarati"
+      android:textColor="#212121"
+      android:textSize="20sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/button" />
+
+  <Button
+      android:id="@+id/button3"
+      android:layout_width="217dp"
+      android:layout_height="92dp"
+      android:layout_marginStart="107dp"
+      android:layout_marginTop="66dp"
+      android:layout_marginEnd="87dp"
+      android:layout_marginBottom="109dp"
+      android:text="Hindi"
+      android:textColor="#212121"
+      android:textSize="20sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/button2" />
+</androidx.constraintlayout.widget.ConstraintLayout>
