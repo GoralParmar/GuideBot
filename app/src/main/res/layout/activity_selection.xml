@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF0BB"
+    tools:context=".Selection">
+
+  <TextView
+      android:id="@+id/scholarship"
+      android:layout_width="wrap_content"
+      android:layout_height="167dp"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentEnd="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginStart="12dp"
+      android:layout_marginTop="26dp"
+      android:layout_marginEnd="10dp"
+      android:layout_marginBottom="50dp"
+      android:gravity="left"
+      android:padding="10dp"
+      android:text="Choose the Scholarship caste wise"
+      android:textColor="@color/black"
+      android:textSize="35dp"
+      android:textStyle="bold" />
+
+
+  <Button
+      android:id="@+id/open"
+      android:layout_width="162dp"
+      android:layout_height="113dp"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"
+      android:layout_centerVertical="true"
+      android:layout_marginStart="25dp"
+      android:layout_marginTop="244dp"
+      android:background="@drawable/shape"
+      android:gravity="center"
+      android:text="Open or General"
+      android:textAllCaps="false"
+      android:textColor="@color/black"
+      android:textSize="20dp" />
+
+  <Button
+      android:id="@+id/OBC"
+      android:layout_width="171dp"
+      android:layout_height="114dp"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentEnd="true"
+      android:layout_marginTop="246dp"
+      android:layout_marginEnd="18dp"
+      android:background="@drawable/shape"
+      android:gravity="center"
+      android:text="OBC(SEBC)"
+      android:textAllCaps="false"
+      android:textColor="@color/black"
+      android:textSize="20dp" />
+
+  <Button
+      android:id="@+id/SC"
+      android:layout_width="163dp"
+      android:layout_height="98dp"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentBottom="true"
+      android:layout_marginStart="23dp"
+      android:layout_marginBottom="233dp"
+      android:background="@drawable/shape"
+      android:gravity="center"
+      android:text="SC"
+      android:textAllCaps="false"
+      android:textColor="@color/black"
+      android:textSize="20dp" />
+
+  <Button
+      android:id="@+id/ST"
+      android:layout_width="163dp"
+      android:layout_height="98dp"
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentBottom="true"
+      android:layout_marginEnd="21dp"
+      android:layout_marginBottom="236dp"
+      android:background="@drawable/shape"
+      android:gravity="center"
+      android:text="ST"
+      android:textAllCaps="false"
+      android:textColor="@color/black"
+      android:textSize="20dp" />
+
+</RelativeLayout>
+

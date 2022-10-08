@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".open_cast">
+
+    <RelativeLayout
+        android:id="@+id/open"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/shape_actionbar">
+
+        <!--ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_menu"
+            android:paddingStart="10dp" /-->
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/opentextView"
+        android:layout_below="@+id/open"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:text="FOR OPEN/GENERAL CATEGORY"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.124"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/open1"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/opentextView"
+        android:background="@drawable/shape_actionbar">
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="160dp"
+            android:layout_centerInParent="true"
+            android:background="@color/teal_200"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/openscholar1"
+                android:layout_width="280dp"
+                android:layout_height="45dp"
+                android:text="Scholarship1"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textAlignment="center" />
+
+            <LinearLayout
+                android:layout_width="275dp"
+                android:layout_height="75dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/openeli1"
+                    android:layout_width="120dp"
+                    android:layout_height="35dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/white"
+                    android:padding="5dp"
+                    android:text="Eligibility"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/openbene1"
+                    android:layout_width="120dp"
+                    android:layout_height="35dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/white"
+                    android:padding="5dp"
+                    android:text="benefits"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_actionbar"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/openlike1"
+                    android:layout_width="1dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/ic_like_svgrepo_com" />
+
+                <ImageButton
+                    android:id="@+id/openshare1"
+                    android:layout_width="0dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/ic_share_svgrepo_com" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/open2"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/open1"
+        android:layout_marginTop="35dp"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/open1">
+
+        <LinearLayout
+            android:background="@color/teal_200"
+            android:layout_width="280dp"
+            android:layout_height="160dp"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/openscholar2"
+                android:layout_width="280dp"
+                android:textAlignment="center"
+                android:layout_height="45dp"
+                android:text="Scholarship2"
+                android:textSize="25dp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="275dp"
+                android:layout_height="75dp"
+                android:orientation="horizontal"
+                android:layout_margin="0dp">
+
+                <TextView
+                    android:id="@+id/openeli2"
+                    android:background="@color/white"
+                    android:layout_width="120dp"
+                    android:layout_height="35dp"
+                    android:textAlignment="center"
+                    android:layout_margin="10dp"
+                    android:padding="5dp"
+                    android:text="Eligibility"/>
+
+                <TextView
+                    android:id="@+id/openbene2"
+                    android:background="@color/white"
+                    android:layout_width="120dp"
+                    android:textAlignment="center"
+                    android:layout_height="35dp"
+                    android:layout_margin="10dp"
+                    android:padding="5dp"
+                    android:text="benefits" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:background="@drawable/shape_actionbar"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/openlike2"
+                    android:layout_width="0dp"
+                    android:layout_height="15dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_like_svgrepo_com"/>
+                <ImageButton
+                    android:id="@+id/openshare2"
+                    android:layout_width="0dp"
+                    android:layout_height="15dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_share_svgrepo_com"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/open3"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/open2"
+        android:layout_marginTop="35dp"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/open2">
+
+        <LinearLayout
+            android:background="@color/teal_200"
+            android:layout_width="280dp"
+            android:layout_height="160dp"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/openscholar3"
+                android:layout_width="280dp"
+                android:textAlignment="center"
+                android:layout_height="45dp"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:text="Scholarship3" />
+
+            <LinearLayout
+                android:layout_width="275dp"
+                android:layout_height="75dp"
+                android:orientation="horizontal"
+                android:layout_margin="0dp">
+
+                <TextView
+                    android:id="@+id/openeli3"
+                    android:background="@color/white"
+                    android:layout_width="120dp"
+                    android:layout_height="35dp"
+                    android:textAlignment="center"
+                    android:layout_margin="10dp"
+                    android:padding="5dp"
+                    android:text="Eligibility" />
+
+                <TextView
+                    android:id="@+id/openbene3"
+                    android:background="@color/white"
+                    android:layout_width="120dp"
+                    android:textAlignment="center"
+                    android:layout_height="35dp"
+                    android:layout_margin="10dp"
+                    android:padding="5dp"
+                    android:text="benefits" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:background="@drawable/shape_actionbar"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/openlike3"
+                    android:layout_width="0dp"
+                    android:layout_height="15dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_like_svgrepo_com"/>
+                <ImageButton
+                    android:id="@+id/openshare3"
+                    android:layout_width="0dp"
+                    android:layout_height="15dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_share_svgrepo_com"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

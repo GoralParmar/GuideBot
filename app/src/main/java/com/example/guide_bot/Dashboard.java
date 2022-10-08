@@ -7,22 +7,22 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Main_Page extends AppCompatActivity {
+public class Dashboard extends AppCompatActivity {
 
-    private Button btnEnglish;
+    private Button btnGuidance;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_page);
+        setContentView(R.layout.activity_dashboard);
 
-        btnEnglish = findViewById(R.id.btnEnglish);
-        btnEnglish.setOnClickListener(new View.OnClickListener()
+        btnGuidance = findViewById(R.id.Guidance);
+        btnGuidance.setOnClickListener(new View.OnClickListener()
 
         {
             @Override
             public void onClick (View view){
-                startActivity(new Intent(Main_Page.this, Dashboard.class));
+                startActivity(new Intent(Dashboard.this, Selection.class));
             }
         });
     }

@@ -4,67 +4,61 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFECB3"
+    android:background="#FAF0BB"
     tools:context=".Main_Page">
 
   <TextView
-      android:id="@+id/textView"
+      android:id="@+id/txtChlang"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:layout_marginStart="122dp"
       android:layout_marginTop="120dp"
       android:layout_marginEnd="122dp"
-      android:layout_marginBottom="589dp"
       android:text="Choose Your Language"
       android:textColor="#050505"
       android:textSize="16sp"
       android:textStyle="bold"
-      app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent" />
 
   <Button
-      android:id="@+id/button"
+      android:id="@+id/btnEnglish"
       android:layout_width="217dp"
       android:layout_height="92dp"
-      android:layout_marginStart="107dp"
-      android:layout_marginTop="84dp"
-      android:layout_marginEnd="87dp"
+      android:layout_marginTop="62dp"
+      android:background="@drawable/shape"
       android:text="English"
       android:textColor="#100F0F"
       android:textSize="20sp"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@+id/textView" />
+      app:layout_constraintTop_toBottomOf="@+id/txtChlang" />
 
   <Button
-      android:id="@+id/button2"
+      android:id="@+id/btnGujarati"
       android:layout_width="217dp"
       android:layout_height="92dp"
-      android:layout_marginStart="107dp"
       android:layout_marginTop="53dp"
-      android:layout_marginEnd="87dp"
+      android:background="@drawable/shape"
       android:text="Gujarati"
       android:textColor="#212121"
       android:textSize="20sp"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@+id/button" />
+      app:layout_constraintTop_toBottomOf="@+id/btnEnglish" />
 
   <Button
-      android:id="@+id/button3"
+      android:id="@+id/btnHindi"
       android:layout_width="217dp"
       android:layout_height="92dp"
-      android:layout_marginStart="107dp"
-      android:layout_marginTop="66dp"
-      android:layout_marginEnd="87dp"
-      android:layout_marginBottom="109dp"
+      android:layout_marginTop="46dp"
+      android:background="@drawable/shape"
       android:text="Hindi"
       android:textColor="#212121"
       android:textSize="20sp"
-      app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@+id/button2" />
+      app:layout_constraintTop_toBottomOf="@+id/btnGujarati" />
 </androidx.constraintlayout.widget.ConstraintLayout>

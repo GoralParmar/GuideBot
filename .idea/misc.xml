@@ -3,20 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-<<<<<<< HEAD
-        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GuideBot/app/src/main/res/layout/activity_main.xml" value="0.16" />
-        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GuideBot/app/src/main/res/layout/fragment_side_menu.xml" value="0.2" />
-        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GuideBot/app/src/main/res/layout/group.xml" value="0.10648148148148148" />
-        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GuideBot/app/src/main/res/layout/header.xml" value="0.1" />
-        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GuideBot/app/src/main/res/layout/item.xml" value="0.10648148148148148" />
-        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GuideBot/app/src/main/res/layout/main_header_selection.xml" value="0.1" />
-        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GuideBot/app/src/main/res/layout/nav_header.xml" value="0.22" />
-        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GuideBot/app/src/main/res/menu/main_menu.xml" value="0.2" />
-        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GuideBot/app/src/main/res/menu/sidemenu.xml" value="0.25" />
-=======
         <entry key="..\:/Users/Goral/AndroidStudioProjects/Guide_Bot/app/src/main/res/layout/activity_main.xml" value="0.21965579710144928" />
         <entry key="..\:/Users/Goral/AndroidStudioProjects/Guide_Bot/app/src/main/res/layout/activity_main_page.xml" value="0.2" />
->>>>>>> e544b52 (test)
       </map>
     </option>
   </component>

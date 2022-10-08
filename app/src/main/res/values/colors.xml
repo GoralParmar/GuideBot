@@ -8,4 +8,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="main_color">#DCEDC8</color>
+    <color name="edit">#F9BBFA</color>
+    <color name="action_bar">#E2E2DE</color>
 </resources>
