@@ -3,10 +3,12 @@ package com.example.guide_bot;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -28,10 +30,43 @@ public class Registration extends AppCompatActivity {
         EditText password = (EditText) findViewById(R.id.Pass);
         EditText confir = (EditText) findViewById(R.id.confirpass);
         TextView signin =(TextView) findViewById(R.id.login);
+        ImageView web = (ImageView)findViewById(R.id.imageView2);
+        ImageView facebook = (ImageView)findViewById(R.id.imageView);
+        ImageView linkdin = (ImageView) findViewById(R.id.imageView3);
         DB = new DBHelper(this);
 
         Button register =(Button) findViewById(R.id.Res);
 
+
+        web.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                String url = "https://google.com";
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(url));
+                startActivity(i);
+            }
+        });
+
+        facebook.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                String url = "https://www.facebook.com";
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(url));
+                startActivity(i);
+            }
+        });
+
+        linkdin.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                String url = "https://in.linkedin.com";
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(url));
+                startActivity(i);
+            }
+        });
 
         signin.setOnClickListener(new View.OnClickListener() {
             @Override
