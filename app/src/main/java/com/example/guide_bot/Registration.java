@@ -38,6 +38,8 @@ public class Registration extends AppCompatActivity {
         Button register =(Button) findViewById(R.id.Res);
 
 
+
+
         web.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){

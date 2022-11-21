@@ -4,11 +4,11 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
-import com.example.guidebot.BuildConfig;
+import com.example.guide_bot.BuildConfig;
+import com.example.guide_bot.MainActivity;
+import com.example.guide_bot.R;
 import com.example.guidebot.Fragment.side_menu;
 import com.example.guidebot.Interface.NavigationManager;
-import com.example.guidebot.MainActivity;
-import com.example.guidebot.R;
 
 public class FragmentNavigation implements NavigationManager {
     private  static FragmentNavigation mInstance;
@@ -39,7 +39,8 @@ public class FragmentNavigation implements NavigationManager {
     public void showFragment(Fragment fragment,boolean b){
 
         FragmentManager fm = mFragmentManager;
-        FragmentTransaction ft = fm.beginTransaction().replace(R.id.controller,fragment);
+
+        FragmentTransaction ft = fm.beginTransaction().replace(R.id.Pass,fragment);
         ft.addToBackStack(null);
         if(b|| !BuildConfig.DEBUG) ft.commit();
         else
